@@ -1,11 +1,8 @@
-td\documentclass{article}
+\documentclass{article}
 % \usepackage{graphicx} % Required for inserting images
 \usepackage{fullpage}
 \usepackage{microtype}
-\usepackage[
-backend=biber,
-style=alphabetic,
-]{biblatex}
+\usepackage[backend=biber,style=alphabetic,]{biblatex}
 \addbibresource{linux-aero.bib}
 
 \title{Survey on State-of-the-Art Operating Systems in Avionics, Targeting Open-Source Operating Systems}
@@ -29,13 +26,13 @@ style=alphabetic,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % We go to the content/chapters step by step!
 % Finished/operated chapters:
-\input{00_abstract}     % Finished
+%\input{00_abstract}     % Finished
 \input{01_introduction} % Operated
 
 % The following chapters will be addressed in follow-up meetings!
 % Please \FullPaper=1 and re-compile to see the full content...
 \newcount\FullPaper
-\FullPaper=1
+\FullPaper=0
 
 % Don't touch the following for the moment, please...
 \ifnum\FullPaper=1
